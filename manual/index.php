@@ -4,13 +4,24 @@ if( ! $lang ) {
 	$lang = 'en';
 }
 
-$file = "$lang/Getting_Started.pdf"; 
+$type = $_GET['type'];
+switch( $type ) {
+case 'start':
+    $filename = 'Getting_Started.pdf';
+    break;
+case 'manual':
+default:
+    $filename = 'Manual.pdf';
+    break;
+}
+
+$file = "$lang/$filename";
 if(! file_exists( $file ) ) {
-	$file = "en/Getting_Started.pdf"; 
+	$file = "en/$filename";
 }
 if( file_exists( $file ) ) {
 	header('Content-Type: ' . mime_content_type($file));
-	header('Content-Disposition: inline; filename="Getting Started.pdf"');
+	header("Content-Disposition: inline; filename=\"$filename\"");
 	header('Pragma: public');
 	header('Content-Length: ' . filesize($file));
 	header('Content-Transfer-Encoding: binary');
