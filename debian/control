@@ -1,0 +1,15 @@
+Source: bubba-manual
+Section: web
+Priority: optional
+Maintainer: Tor Krill <tor@excito.com>
+Uploaders: Carl Fürstenberg <carl@excito.com>
+Build-Depends: debhelper (>= 7.2)
+Standards-Version: 3.7.3
+Homepage: http://www.excito.com
+
+Package: bubba-manual
+Conflicts: bubba-frontend (<= 1.0.13)
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: The manual for Bubba 
+ Package consist of the manual made for Bubba
