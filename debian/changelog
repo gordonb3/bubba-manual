@@ -1,8 +1,20 @@
-bubba-manual (2.1.0) vincent hugo; urgency=low
+bubba-manual (2.2) vincent hugo; urgency=low
 
-  * Update for b3
+  * Updated screenshots. 
 
- -- Tor Krill <tor@excito.com>  Thu, 09 Sep 2010 11:26:06 +0200
+ -- PA Nilsson <pa@excito.com>  Fri, 22 Oct 2010 15:04:21 +0200
+
+bubba-manual (2.0.0.3) vincent hugo; urgency=low
+
+  * Added quickstart in german and swedish
+
+ -- PA Nilsson <pa@excito.com>  Fri, 22 Oct 2010 14:26:05 +0200
+
+bubba-manual (2.0.0.2) vincent hugo; urgency=low
+
+  * Support for multilangguage selection 
+
+ -- PA Nilsson <pa@excito.com>  Wed, 06 Oct 2010 09:39:57 +0200
 
 bubba-manual (2.0.0.1) vincent; urgency=low
 

@@ -5,6 +5,9 @@ if( ! $lang ) {
 }
 
 $file = "$lang/Getting_Started.pdf"; 
+if(! file_exists( $file ) ) {
+	$file = "en/Getting_Started.pdf"; 
+}
 if( file_exists( $file ) ) {
 	header('Content-Type: ' . mime_content_type($file));
 	header('Content-Disposition: inline; filename="Getting Started.pdf"');
@@ -14,5 +17,7 @@ if( file_exists( $file ) ) {
 	ob_clean();
 	flush();
 	@readfile($file);
+} else {
+	print "No document available";
 }
 exit;

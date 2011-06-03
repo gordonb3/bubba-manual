@@ -11,5 +11,5 @@ Package: bubba-manual
 Conflicts: bubba-frontend (<= 1.0.13)
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: The manual for Bubba 
- Package consist of the manual made for Bubba
+Description: The manual for BUBBA|2
+ Package consist of the manual made for BUBBA|2
