@@ -1,0 +1,189 @@
+bubba-manual (2.0.0.1) vincent; urgency=low
+
+  * B3 
+  * Switch to dpkg-source 3.0 (native) format
+
+ -- Carl Fürstenberg <carl@excito.com>  Wed, 09 Jun 2010 14:51:23 +0200
+
+bubba-manual (2.0) claire estelle; urgency=low
+
+  * updated for 2.0 
+  * added language switch for the manual; default to english
+    use http://bubba/manual?lang=se for Swedish
+
+ -- Carl Fürstenberg <carl@excito.com>  Tue, 13 Apr 2010 17:48:58 +0200
+
+bubba-manual (1.9.93) claire; urgency=low
+
+  * Added "Gettings started guide" for now.
+
+ -- PA Nilsson <pa@excito.com>  Wed, 07 Apr 2010 13:07:10 +0200
+
+bubba-manual (1.9.92) claire; urgency=low
+
+  * Redirect page
+
+ -- PA Nilsson <pa@excito.com>  Wed, 07 Apr 2010 12:57:25 +0200
+
+bubba-manual (1.9.91) claire; urgency=low
+
+  * New build. 
+
+ -- PA Nilsson <pa@excito.com>  Wed, 07 Apr 2010 12:50:45 +0200
+
+bubba-manual (1.9.9) claire; urgency=low
+
+  * Removed old manual structure. 
+
+ -- PA Nilsson <pa@excito.com>  Wed, 07 Apr 2010 12:45:17 +0200
+
+bubba-manual (1.3.1) claire estelle; urgency=low
+
+  * Updated wlan and profile info.
+
+ -- Tor Krill <tor@excito.com>  Wed, 10 Feb 2010 14:20:53 +0100
+
+bubba-manual (1.3) claire estelle; urgency=low
+
+  * New release
+
+ -- Carl Fürstenberg <carl@excito.com>  Mon, 08 Feb 2010 15:05:39 +0100
+
+bubba-manual (1.2.5) claire estelle; urgency=low
+
+  [ Magnus Jönsson ]
+  * Added wlan information
+
+ -- Carl Fürstenberg <carl@excito.com>  Sat, 06 Feb 2010 16:32:09 +0100
+
+bubba-manual (1.2.4) karmic; urgency=low
+
+  [ Magnus Jönsson ]
+  * Info regarding 2GB 
+  * Info regarding Heatpads
+
+ -- Carl Fürstenberg <carl@excito.com>  Tue, 03 Nov 2009 14:26:29 +0100
+
+bubba-manual (1.2.2.0.1) estelle; urgency=low
+
+  [ Carl Fürstenberg ]
+  * adding notice to update and reboot before internal RAID recovery
+
+  [ Magnus Jönsson ]
+  * Uppdated info regarding Router/Firewall, AFP, and RAID.
+
+ -- Carl Fürstenberg <carl@excito.com>  Fri, 25 Sep 2009 16:23:06 +0200
+
+bubba-manual (1.2.0.3) estelle; urgency=low
+
+  * updated chapter anchors
+
+ -- Carl Fürstenberg <carl@excito.com>  Fri, 04 Sep 2009 14:13:45 +0200
+
+bubba-manual (1.2.0.2) estelle; urgency=low
+
+  * Update to latest release by magnus
+  * 30 sek fördröjning
+  * raid.html uppdaterad (nya skärmdumpar etc) 
+
+ -- Tor Krill <tor@excito.com>  Mon, 31 Aug 2009 19:31:47 +0200
+
+bubba-manual (1.2.0.1) estelle; urgency=low
+
+  * Hotfix information added.
+
+ -- PA Nilsson <pa@excito.com>  Thu, 20 Aug 2009 13:39:00 +0200
+
+bubba-manual (1.2) estelle; urgency=low
+
+  [ Carl Fürstenberg ]
+  * Bump to version 1.2
+
+  [ Magnus Jönsson ]
+  * raid info updaterad
+
+ -- Carl Fürstenberg <carl@excito.com>  Fri, 03 Jul 2009 11:33:09 +0200
+
+bubba-manual (1.1.6) estelle; urgency=low
+
+  [ Magnus Jönsson ]
+  * nya features
+  * nya features lvm.html
+  * nya features
+
+ -- Carl Fürstenberg <carl@excito.com>  Thu, 02 Jul 2009 15:38:14 +0200
+
+bubba-manual (1.1.5) estelle; urgency=low
+
+  * Updated manual for the one point two release 
+
+ -- Carl Fürstenberg <carl@excito.com>  Thu, 25 Jun 2009 13:18:28 +0200
+
+bubba-manual (1.1.4) claire; urgency=low
+
+  [ magnus ]
+  * extended info in media_servers.html
+  * change squeezecenter install procedure
+  * update quickstart, LED info for example
+  * updated SMTP information
+
+ -- Carl Fürstenberg <carl@excito.com>  Wed, 25 Mar 2009 23:13:03 +0100
+
+bubba-manual (1.1.3) claire; urgency=low
+
+  [ magnus ]
+  * förenkling av quickstart
+
+ -- Carl Fürstenberg <carl@excito.com>  Wed, 04 Feb 2009 18:18:32 +0100
+
+bubba-manual (1.1.2) estelle; urgency=low
+
+  * remove copyright
+ 
+
+ -- Carl Fürstenberg <carl@excito.com>  Fri, 30 Jan 2009 15:00:10 +0100
+
+bubba-manual (1.1.1) estelle; urgency=low
+
+  * removing dependency on apache2 
+
+ -- Carl Fürstenberg <carl@excito.com>  Thu, 29 Jan 2009 17:24:37 +0100
+
+bubba-manual (1.1.0) estelle; urgency=low
+
+  * Merging from trunk
+  * Bumpi ng for release
+
+ -- Carl Fürstenberg <carl@excito.com>  Thu, 29 Jan 2009 14:50:38 +0100
+
+bubba-manual (1.0.99.1) estelle; urgency=low
+
+  [magnus]
+   * Updates regarding mediaservers, autodetection, and wizard in the user
+     interface.
+
+ -- Carl Fürstenberg <carl@excito.com>  Fri, 23 Jan 2009 10:00:34 +0100
+
+bubba-manual (1.0.3) unstable; urgency=low
+
+  * correct dep
+
+ -- Carl Fürstenberg <carl@excito.com>  Fri, 09 Jan 2009 15:11:17 +0100
+
+bubba-manual (1.0.2) unstable; urgency=low
+
+  * moving manual to own directory
+
+ -- Carl Fürstenberg <carl@excito.com>  Fri, 09 Jan 2009 14:59:36 +0100
+
+bubba-manual (1.0.1) unstable; urgency=low
+
+  * add conflict to old frontend 
+
+ -- Carl Fürstenberg <carl@excito.com>  Thu, 08 Jan 2009 18:52:16 +0100
+
+bubba-manual (1.0.0) unstable; urgency=low
+
+  * Initial release.
+
+ -- Carl Fürstenberg <carl@excito.com>  Thu, 08 Jan 2009 18:38:36 +0100
