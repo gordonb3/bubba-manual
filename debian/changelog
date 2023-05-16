@@ -1,3 +1,35 @@
+bubba-manual (2.3~rc3) vincent hugo; urgency=low
+
+  * Adding German manual
+  * Updating English manual
+
+ -- Carl Fürstenberg <carl@excito.com>  Thu, 14 Jul 2011 14:29:49 +0200
+
+bubba-manual (2.3~rc2) vincent hugo; urgency=low
+
+  * Adding the English manual
+  * Adding gbp.conf
+
+ -- Carl Fürstenberg <carl@excito.com>  Fri, 03 Jun 2011 12:26:32 +0200
+
+bubba-manual (2.2) vincent hugo; urgency=low
+
+  * Updated screenshots. 
+
+ -- PA Nilsson <pa@excito.com>  Fri, 22 Oct 2010 15:04:21 +0200
+
+bubba-manual (2.0.0.3) vincent hugo; urgency=low
+
+  * Added quickstart in german and swedish
+
+ -- PA Nilsson <pa@excito.com>  Fri, 22 Oct 2010 14:26:05 +0200
+
+bubba-manual (2.0.0.2) vincent hugo; urgency=low
+
+  * Support for multilangguage selection 
+
+ -- PA Nilsson <pa@excito.com>  Wed, 06 Oct 2010 09:39:57 +0200
+
 bubba-manual (2.0.0.1) vincent; urgency=low
 
   * B3 
